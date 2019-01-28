@@ -8,7 +8,7 @@
 #include <time.h>
 #define MAXNUM 25
 
-void swap(int* a, int* b)   {
+void swap(int* a, int* b)   { 
     *a ^= *b;
     *b ^= *a;
     *a ^= *b;
